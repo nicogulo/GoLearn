@@ -24,4 +24,21 @@ func main() {
 	slice1[0] = "meiyaa"
 	fmt.Println(slice1)
 	fmt.Println(month)
+
+	person := map[string]string{
+		"name":    "Nic",
+		"address": "Jakarta",
+	}
+
+	fmt.Println(person)
+	fmt.Println(person["name"])
+	fmt.Println(person["address"])
+
+	// 	make map
+	book := make(map[string]string)
+	book["title"] = "GoLearn"
+	book["author"] = "Backend"
+
+	fmt.Println(book["title"])
+	fmt.Println(book["author"])
 }
