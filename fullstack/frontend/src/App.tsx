@@ -1,6 +1,7 @@
 import "./App.css";
 import Header from "./components/Header";
 import Todolist from "./components/Todolist";
+import Test from "./components/Test";
 
 function App() {
   return (
@@ -18,9 +19,9 @@ function App() {
             desctopstion: "Complete Task",
             inCompleted: true,
           },
-
         ]}
       />
+      <Test />
     </div>
   );
 }
